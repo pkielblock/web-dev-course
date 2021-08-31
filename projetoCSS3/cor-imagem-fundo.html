@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cor e Imagem de Fundo</title>
+        <style type="text/css">
+            /*
+            .fundo{
+                background-color: blue;
+            }
+            */
+            h1{
+                /*background-image: url('img/yoshi.png');*/
+                /*repeat-x, repeat-y, no-repeat, repeat*/
+                background-repeat: repeat-x;
+                /*scrolol, fixec*/
+                background-attachment: scroll;
+                /*
+                primeiro valor: left, center, right
+                segundo valor: top, center, bottom
+                */
+                background-position: center center;
+            }
+            .fundo{
+                background: blue url('img/yoshi.png') repeat-x scroll center center;
+            }
+        </style>
+    </head>
+    <body class="fundo">
+        <h1>
+            Conteúdo de Título 1 <br>
+        </h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Ab doloremque qui totam non culpa veritatis magnam 
+            repudiandae vel magni quidem?
+        </p>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Ab doloremque qui totam non culpa veritatis magnam 
+            repudiandae vel magni quidem?
+        </p>
+    </body>
+</html>
