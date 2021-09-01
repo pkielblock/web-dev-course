@@ -1,2 +1,2 @@
-## Curso Programação Web
-Repositório Para Estudos de um Curso de Programação Web.
+## Web Development Course
+Repository for a Web Development course.
