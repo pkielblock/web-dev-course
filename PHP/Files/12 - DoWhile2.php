@@ -10,6 +10,10 @@
     <?php
     if(isset($_POST["dependentes"])){
         $dependentes = $_POST["dependentes"];
+        if(! is_numeric($dependentes)){
+            $dependentes = 1;
+            echo "não numérico";
+        }
         
         $conta = 0;
 
