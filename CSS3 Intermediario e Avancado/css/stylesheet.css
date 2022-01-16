@@ -1,26 +1,32 @@
 ul {
     margin: 0;
     padding: 0;
-    list-style-type: none;
+    list-style: none;
+    width: 720px;
+    background: #159cb0 url(../img/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+
+ul li {
+    float: left;
 }
 
 ul a {
-    width: 200px;
-    height: 40px;
     display: block;
-    color: #000;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
+    padding: 0 2em;
+    line-height: 2.2em;
     text-decoration: none;
-    text-indent: 40px;
-    line-height: 40px;
-    background: #f7b600 url(../img/menu.png) no-repeat left bottom;
+    color: #fff;
+    background: url(../img/divisor.png) repeat-y left top;
 }
 
-a:hover {
-    background-position: right bottom;
-    background-color: #f99200;
-    color: white;
+ul .primeiro a {
+    background: none;
+}
+
+ul a:hover{
+    color: #085662;
+    background: #44cade;
 }
 
 #home #navegacao .home a, 
@@ -28,7 +34,6 @@ a:hover {
 #servicos #navegacao .servicos a,
 #noticias #navegacao .noticias a,
 #contato #navegacao .contato a {
-    background-position: right bottom;
-    background-color: #f99200;
-    color: white;
+    color: #085662;
+    background: #44cade;
 }
